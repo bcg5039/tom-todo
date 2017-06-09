@@ -1,13 +1,13 @@
 const {get, set} = require('../lib/store.js')
-const { map} = require('ramda')
+const {map, curry, reduce, filter} = require('ramda')
 
 module.exports = function(){
-  const toDoList = get()
+
   console.log(`\n        ToDos`)
   console.log('_______________')
   map(printObj, toDoList.todos)
   console.log('_______________')
-    return
+  console.log(`Total: ${toDoList.counter}  % Remaining:  `)
   }
 
 
@@ -18,6 +18,5 @@ function printObj(v){
 }
 
 function isComplete(obj)  {
-  return
-obj.completed
+  return obj.completed
 }

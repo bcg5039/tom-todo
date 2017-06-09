@@ -1,12 +1,36 @@
-{ "counter": 0,
-   "todos": [{
-     "text": "Create Add Item",
-     "id": 1,
-     "completed": true
-  },
+{
+  "counter": 4,
+  "todos": [
     {
-    "text": "List Todo Items",
-    "id": 2,
-    "completed": true
-    }]
+      "text": "Create Add Item",
+      "id": 1,
+      "completed": true
+    },
+    {
+      "text": "List Todo Items",
+      "id": 2,
+      "completed": true
+    },
+    {},
+    {
+      "text": "test2",
+      "id": "3",
+      "completed": false
+    },
+    {
+      "text": "Test4",
+      "id": "3",
+      "completed": false
+    },
+    {
+      "text": "Test 1",
+      "id": "3",
+      "completed": false
+    },
+    {
+      "text": "Test this right now",
+      "id": "3",
+      "completed": false
+    }
+  ]
 }
