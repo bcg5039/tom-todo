@@ -1,5 +1,5 @@
 {
-  "counter": 4,
+  "counter": 6,
   "todos": [
     {
       "text": "Create Add Item",
@@ -11,25 +11,24 @@
       "id": 2,
       "completed": true
     },
-    {},
     {
       "text": "test2",
-      "id": "3",
+      "id": 3
       "completed": false
     },
     {
       "text": "Test4",
-      "id": "3",
+      "id": 4,
       "completed": false
     },
     {
       "text": "Test 1",
-      "id": "3",
+      "id": 5,
       "completed": false
     },
     {
       "text": "Test this right now",
-      "id": "3",
+      "id": 6,
       "completed": false
     }
   ]
